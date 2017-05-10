@@ -1,0 +1,6 @@
+services:
+  giphy.controller:
+    class: Drupal\giphy\Controller\GiphyController
+    arguments: ['@giphy.api']
+  giphy.api:
+    class: rfreebern\Giphy

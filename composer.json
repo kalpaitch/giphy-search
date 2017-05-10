@@ -1,0 +1,9 @@
+{
+  "name": "drupal/giphy",
+  "type": "drupal-module",
+  "description": "The giphy module allows searching of the Giphy database.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": { }
+}

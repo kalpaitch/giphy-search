@@ -1,0 +1,15 @@
+giphy.search:
+  path: '/giphy/search/{term}'
+  defaults:
+    _controller: '\Drupal\giphy\Controller\GiphyController::search'
+    _title: 'Search Giphy Results'
+  requirements:
+    _permission: 'access content'
+
+giphy.search_form:
+  path: '/giphy/search'
+  defaults:
+    _form: '\Drupal\giphy\Form\GiphyForm'
+    _title: 'Giphy Search Form'
+  requirements:
+    _permission: 'access content'

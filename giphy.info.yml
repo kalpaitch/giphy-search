@@ -1,0 +1,5 @@
+name: Giphy
+type: module
+description: Integrates with the Giphy api to allow searching of the Giphy database.
+core: 8.x
+package: Other

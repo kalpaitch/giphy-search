@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains giphy.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function giphy_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the giphy module.
+    case 'help.page.giphy':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The Giphy module provides a search page for querying the Giphy database.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
